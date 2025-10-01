@@ -4,7 +4,7 @@
 **DB:** SQLite (`data/app.db`, se crea automáticamente)
 
 
-## 1) Instalar paquetes y ejecutar
+## 1) Instalar paquetes y ejecutar..
 ```bash
 cd server
 dotnet restore
