@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estudiantes</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/api.js"></script>
+  <script defer src="assets/js/students.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Estudiantes</h1>
+    <nav><a href="dashboard.html">Volver</a></nav>
+  </header>
+  <main class="container">
+    <section>
+      <h2>Nuevo / Editar</h2>
+      <form id="formStudent">
+        <input type="hidden" id="id" />
+        <div class="grid">
+          <div><label for="nombre">Nombre</label><input id="nombre" required /></div>
+          <div><label for="apellido">Apellido</label><input id="apellido" required /></div>
+          <div><label for="email">Email</label><input id="email" type="email" required /></div>
+          <div><label for="fecha_nacimiento">Fecha de nacimiento</label><input id="fecha_nacimiento" type="date" /></div>
+        </div>
+        <div class="actions">
+          <button type="submit">Guardar</button>
+          <button type="button" id="btnReset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+    <section>
+      <h2>Listado</h2>
+      
+    <div class="list-controls">
+      <form id="searchForm">
+        <input id="q" placeholder="Buscar estudiantes..." />
+        <button type="submit">Buscar</button>
+      </form>
+      <div class="pager">
+        <button type="button" id="prevPage">Anterior</button>
+        <span id="pageInfo"></span>
+        <button type="button" id="nextPage">Siguiente</button>
+      </div>
+    </div>
+    
+      <table>
+        <thead><tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Email</th><th>Fecha Nac.</th><th>Acciones</th></tr></thead>
+        <tbody id="tbodyStudents"></tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
