@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <td>${s.Apellido}</td>
         <td>${s.Email}</td>
         <td>${s.FechaNacimiento || ''}</td>
+		<td>${s.NumeroTelefono || ''}</td>
         <td>
           <button data-edit="${s.Id}">Editar</button>
           <button data-del="${s.Id}">Borrar</button>
@@ -49,6 +50,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       document.getElementById('apellido').value = s.Apellido;
       document.getElementById('email').value = s.Email;
       document.getElementById('fecha_nacimiento').value = s.FechaNacimiento ? s.FechaNacimiento.substring(0,10) : '';
+	  document.getElementById('nro_telefono').value = s.NumeroTelefono;
+
     }
     if (idDel) {
       if (!confirm('¿Borrar estudiante #' + idDel + '?')) return;
@@ -63,7 +66,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       nombre: document.getElementById('nombre').value.trim(),
       apellido: document.getElementById('apellido').value.trim(),
       email: document.getElementById('email').value.trim(),
-      fechaNacimiento: document.getElementById('fecha_nacimiento').value || null
+      fechaNacimiento: document.getElementById('fecha_nacimiento').value || null,
+	  nroTelefono: document.getElementById('nro_telefono').value.trim()
     };
     const id = document.getElementById('id').value;
     if (id) {

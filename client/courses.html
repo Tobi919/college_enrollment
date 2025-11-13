@@ -3,28 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Estudiantes</title>
+  <title>Cursos</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
   <script defer src="assets/js/api.js"></script>
-  <script defer src="assets/js/students.js"></script>
+  <script defer src="assets/js/courses.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <h1>Estudiantes</h1>
+    <h1>Cursos</h1>
     <nav><a href="dashboard.html">Volver</a></nav>
   </header>
   <main class="container">
     <section>
       <h2>Nuevo / Editar</h2>
-      <form id="formStudent">
+      <form id="formCourse">
         <input type="hidden" id="id" />
         <div class="grid">
           <div><label for="nombre">Nombre</label><input id="nombre" required /></div>
-          <div><label for="apellido">Apellido</label><input id="apellido" required /></div>
-          <div><label for="email">Email</label><input id="email" type="email" required /></div>
-          <div><label for="fecha_nacimiento">Fecha de nacimiento</label><input id="fecha_nacimiento" type="date" /></div>
-		  <div><label for="nro_telefono">Nro Telefono</label><input id="nro_telefono" required /></div>
-
+          <div class="col-span-2"><label for="descripcion">Descripción</label><textarea id="descripcion" rows="2"></textarea></div>
         </div>
         <div class="actions">
           <button type="submit">Guardar</button>
@@ -37,7 +33,7 @@
       
     <div class="list-controls">
       <form id="searchForm">
-        <input id="q" placeholder="Buscar estudiantes..." />
+        <input id="q" placeholder="Buscar cursos..." />
         <button type="submit">Buscar</button>
       </form>
       <div class="pager">
@@ -48,8 +44,8 @@
     </div>
     
       <table>
-        <thead><tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Email</th><th>Fecha Nac.</th><th>Nro Telefono</th><th>Acciones</th></tr></thead>
-        <tbody id="tbodyStudents"></tbody>
+        <thead><tr><th>ID</th><th>Nombre</th><th>Descripción</th><th>Acciones</th></tr></thead>
+        <tbody id="tbodyCourses"></tbody>
       </table>
     </section>
   </main>

@@ -8,6 +8,8 @@ public class AppDb : DbContext
 
     public DbSet<User> Users => Set<User>();
     public DbSet<Student> Students => Set<Student>();
+    public DbSet<Course> Courses => Set<Course>();
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

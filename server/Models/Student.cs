@@ -9,6 +9,8 @@ namespace WebSqliteApp.Models
         public string Apellido { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty ;
         public DateTime? FechaNacimiento { get; set; }
+        public string NumeroTelefono { get; set; } = string.Empty;
+
 
     }
 }

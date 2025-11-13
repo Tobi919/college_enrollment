@@ -77,7 +77,7 @@ namespace WebSqliteApp.Controllers
         [ProducesResponseType(400)]
         public IActionResult Create([FromBody] StudentDto dto)
         {
-            var s = new Student { Nombre = dto.Nombre, Apellido = dto.Apellido, Email = dto.Email, FechaNacimiento = dto.FechaNacimiento };
+            var s = new Student { Nombre = dto.Nombre, Apellido = dto.Apellido, Email = dto.Email, FechaNacimiento = dto.FechaNacimiento, NumeroTelefono = dto.NroTelefono };
             _db.Students.Add(s);
             try
             {
@@ -106,7 +106,8 @@ namespace WebSqliteApp.Controllers
             s.Nombre = dto.Nombre;
             s.Apellido = dto.Apellido;
             s.Email = dto.Email;
-            
+            s.NumeroTelefono = dto.NroTelefono;
+
             try
             {
                 _db.SaveChanges();
