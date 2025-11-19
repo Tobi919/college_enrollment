@@ -22,3 +22,10 @@ public class CourseDto
     [Required, MaxLength(200)] public string Nombre { get; set; } = string.Empty;
     [MaxLength(500)] public string? Descripcion { get; set; }
 }
+
+public class EnrollmentDto
+{
+    [Required, Range(1, int.MaxValue)] public int StudentId { get; set; }
+    [Required, Range(1, int.MaxValue)] public int CourseId { get; set; }
+    public DateTime FechaInscripcion { get; set; }
+}
