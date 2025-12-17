@@ -1,5 +1,6 @@
 using FluentValidation;
 using WebSqliteApp.Models;
+using WebSqliteApp.DTOs;
 
 namespace WebSqliteApp.Validators;
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj": {}
+    "c:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj": {
+    "c:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj",
+        "projectUniqueName": "c:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj",
         "projectName": "WebSqliteApp",
-        "projectPath": "C:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj",
+        "projectPath": "c:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\WebSqliteApp.csproj",
         "packagesPath": "C:\\Users\\tobi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\obj\\",
+        "outputPath": "c:\\Users\\tobi\\Documents\\GitHub\\college_enrollment\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
