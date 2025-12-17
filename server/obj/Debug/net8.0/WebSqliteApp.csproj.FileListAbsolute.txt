@@ -1,0 +1,8 @@
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.csproj.AssemblyReference.cache
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.AssemblyInfoInputs.cache
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.AssemblyInfo.cs
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.csproj.CoreCompileInputs.cache
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tobi\Documents\GitHub\college_enrollment\Server\obj\Debug\net8.0\WebSqliteApp.sourcelink.json

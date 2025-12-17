@@ -1,0 +1,12 @@
+# Ignore build artifacts
+/server/bin/
+/server/obj/
+
+# VS Code
+.vscode/
+
+# user secrets and OS files
+*.user
+*.suo
+.DS_Store
+Thumbs.db
