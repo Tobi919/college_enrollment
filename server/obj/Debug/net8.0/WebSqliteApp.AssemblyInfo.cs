@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebSqliteApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63ea59cec2f3b00fb9e5de30fafc8a636eab4c85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43017c74e42c58f1d019142fc9ad6dfd6dc496f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebSqliteApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebSqliteApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
